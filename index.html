@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main-container">
+        <div class="container" onclick="openPage('/tip-calc/tip.html')">
+            <div>Tip Calculator</div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="container" onclick="openPage('/unit-calc/unit.html')">
+            <div>Unit Converter</div>
+        </div>
+    </div>
+
+
+    <div class="main-container"onclick="openPage('/bmi-calc/bmi.html')">
+        <div class="container">
+            <div>BMI Calculator</div>
+        </div>
+    </div>
+
+
+
+
+    <div class="main-container">
+        <div class="container" onclick="openPage('/loan-calc/loan.html')">
+            <div>Loan Calculator</div>
+        </div>
+    </div>
+
+
+
+
+    <div class="main-container" onclick="openPage('/discount-calc/discount.html')">
+        <div class="container">
+            <div>Discount Calculator</div>
+        </div>
+    </div>
+
+
+    <div class="main-container" onclick="openPage('/temperature-calc/temperature.html')">
+        <div class="container">
+            <div>Temperature Converter</div>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+    <script>function openPage(page) {
+        window.location.href = page;
+    }</script>
+</body>
+
+</html>

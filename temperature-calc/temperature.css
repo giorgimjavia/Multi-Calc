@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 244, 161);
+}
+
+.main-container-temperature {
+    background-color: rgb(255, 225, 0);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 150px;
+    border-radius: 10px;
+}
+
+.container-temperature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.first-temperature-div {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.c-temperature-div,
+.f-temperature-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+label {
+    font-size: 32px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+input[type="number"] {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100px;
+    font-size: larger;
+}
